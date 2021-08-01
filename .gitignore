@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/front-end-react/node_modules
+/front-end-react/.pnp
+/front-end-react/.pnp.js
+
+# testing
+/front-end-react/coverage
+
+# production
+/front-end-react/build
+
+# misc
+/front-end-react/.DS_Store
+/front-end-react/.env.local
+/front-end-react/.env.development.local
+/front-end-react/.env.test.local
+/front-end-react/.env.production.local
+
+/front-end-react/npm-debug.log*
+/front-end-react/yarn-debug.log*
+/front-end-react/yarn-error.log*
+
+HELP.md
+pankh/target/
+!.pankh/mvn/wrapper/maven-wrapper.jar
+!**/pankh/src/main/**/target/
+!**/pankh/src/test/**/target/
+
+### STS ###
+/pankh/.apt_generated
+/pankh/.classpath
+/pankh/.factorypath
+/pankh/.project
+/pankh/.settings
+/pankh/.springBeans
+/pankh/.sts4-cache
+
+### IntelliJ IDEA ###
+/pankh/.idea
+/pankh/*.iws
+/pankh/*.iml
+/pankh/*.ipr
+
+### NetBeans ###
+/pankh/nbproject/private/
+/pankh/nbbuild/
+/pankh/dist/
+/pankh/nbdist/
+/pankh/.nb-gradle/
+/pankh/build/
+!**pankh/src/main/**/build/
+!**pankh/src/test/**/build/
+
+### VS Code ###
+/pankh/.vscode/
